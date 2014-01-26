@@ -1,0 +1,1 @@
+bdesk_article_share 1.0 -> Initial release
