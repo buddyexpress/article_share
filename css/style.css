@@ -1,0 +1,60 @@
+/**
+ * Buddyexpress Desk Article Share
+ *
+ * @package   Bdesk
+ * @author    Buddyexpress Core Team <admin@buddyexpress.net
+ * @copyright 2014 BUDDYEXPRESS NETWORKS.
+ * @license   Buddyexpress Public License http://www.buddyexpress.net/Licences/bpl/ 
+ * @link      http://labs.buddyexpress.net/bdesk.b
+ */
+ 
+.bdesk_social_share {
+  display: inline-block;
+  font-size: 0.9375em;
+  padding: 0.5em 0.6875em;
+  line-height: 1.2;
+  font-weight: normal;
+  background-color: #0088cc;
+  border: 0.0725em solid #0088cc;
+  border-radius: 0.0725em;
+  margin-right: 0.3125em;
+  margin-bottom: 0.3125em;
+}
+
+.bdesk_social_share,
+.bdesk_social_share:hover,
+a .bdesk_social_share:hover,
+.bdesk_social_share.active {
+  color: white;
+  text-decoration:none;
+}
+
+.bdesk_social_share:hover,
+a .bdesk_social_share:hover,
+.bdesk_social_share.active {
+  background-color: #005580;
+  border-color: #005580;
+  text-decoration: none;
+}
+
+.bdesk_social_share-facebook {
+  background-color: #3b5997;
+  border-color: #3b5997;
+}
+
+.bdesk_social_share-facebook:hover,
+a .bdesk_social_share-facebook:hover {
+  background-color: #263960;
+  border-color: #263960;
+}
+
+.bdesk_social_share-google {
+  background-color: #d64937;
+  border-color: #d64937;
+}
+
+.bdesk_social_share-google:hover,
+a .bdesk_social_share-google:hover {
+  background-color: #a02f21;
+  border-color: #a02f21;
+}
