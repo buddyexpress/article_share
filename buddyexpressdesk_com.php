@@ -62,15 +62,14 @@ function bdesk_article_share_url($name, $url, $text){
 */
 function bdesk_article_share($context, $params, $url){
 $apis = array(
-				 'facebook' => array(
-									'url' => "https://www.facebook.com/sharer/sharer.php?u={$url}",
-									'text' => 'Facebook'
-									 ),
-				 'google' => array(
-								   	'url' => "https://plus.google.com/share?url={$url}",
-									'text' => 'Google+'
-								   )
-);
+		'facebook' => array(
+				'url' => "https://www.facebook.com/sharer/sharer.php?u={$url}",
+				'text' => 'Facebook'
+				),
+		'google' => array(
+		         	'url' => "https://plus.google.com/share?url={$url}",
+		      	        'text' => 'Google+'
+  	    ));
 
 foreach($apis as $name => $data){
   $links[] =   bdesk_article_share_url($name, $data['url'], $data['text']);	 
