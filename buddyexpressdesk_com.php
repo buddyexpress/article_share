@@ -34,8 +34,8 @@ buddyexpressdesk_register_view('BuddyexpressDesk/article/view', 'bdesk_article_s
 */
 function bdesk_article_share_init($context, $params = false, $url){
   $baseurl = buddyexpressdesk_site_url();	
-  $components = 'article_share';
-  echo buddyexpressdesk_css("{$baseurl}components/{$components}/css/style.css");
+  $component = 'article_share';
+  echo buddyexpressdesk_css("{$baseurl}components/{$component}/css/style.css");
 }
 /**
 * Construct Url;
